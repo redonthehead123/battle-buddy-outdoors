@@ -13,6 +13,12 @@ header {
     text-align: center;
 }
 
+header img {
+    max-width: 350px;
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -27,6 +33,31 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.nav-buttons a {
+    background: #2a5298;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background 0.2s;
+}
+
+.nav-buttons a:hover,
+.nav-buttons a:focus {
+    background: #ffd200;
+    color: #2a5298;
+    outline: none;
 }
 
 main {
