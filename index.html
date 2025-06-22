@@ -5,12 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Battle Buddy Outdoors</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+      .nav-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1.5em;
+        margin-bottom: 1.5em;
+      }
+      .nav-buttons a {
+        background: #2a5298;
+        color: #fff;
+        padding: 0.6em 1.2em;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: background 0.2s;
+      }
+      .nav-buttons a:hover,
+      .nav-buttons a:focus {
+        background: #ffd200;
+        color: #020408;
+        outline: none;
+      }
+    </style>
 </head>
 <body>
     <header>
-        <img src="battlebuddylogo.jpg" alt="Battle Buddy Outdoors Logo" style="max-width: 150px; display: block; margin: 0 auto 1em auto;">
+        <img src="battlebuddylogo.jpg" alt="Battle Buddy Outdoors Logo" style="max-width: 350px; display: block; margin: 0 auto 1em auto;">
+        <nav class="nav-buttons">
+          <a href="about.html">About</a>
+          <a href="programs.html">Programs</a>
+          <a href="contact.html">Contact</a>
+        </nav>
         <h1>Battle Buddy Outdoors</h1>
-        <!-- Removed nav buttons under the logo -->
     </header>
     <main>
         <section id="about">
