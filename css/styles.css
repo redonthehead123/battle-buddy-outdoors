@@ -4,6 +4,11 @@ body {
     padding: 0;
     background: #f4f9f4;
     color: #222;
+    /* Campground SVG background */
+    background-image: url('data:image/svg+xml;utf8,<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg"><ellipse cx="200" cy="180" rx="180" ry="20" fill="%2392c47d"/><polygon points="100,180 130,120 160,180" fill="%235b8a3c"/><polygon points="240,180 270,110 300,180" fill="%235b8a3c"/><rect x="185" y="150" width="30" height="30" fill="%23bfa76f"/><polygon points="200,150 200,130 215,130 215,150" fill="%23bfa76f"/><polygon points="200,130 207,120 215,130" fill="%23e6d8ad"/><circle cx="320" cy="170" r="10" fill="%23e25822"/><rect x="318" y="170" width="4" height="10" fill="%23bfa76f"/></svg>');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 600px 300px;
 }
 
 header {
@@ -107,17 +112,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f9f4;
-    color: #222;
-    /* Campground SVG background */
-    background-image: url('data:image/svg+xml;utf8,<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg"><ellipse cx="200" cy="180" rx="180" ry="20" fill="%2392c47d"/><polygon points="100,180 130,120 160,180" fill="%235b8a3c"/><polygon points="240,180 270,110 300,180" fill="%235b8a3c"/><rect x="185" y="150" width="30" height="30" fill="%23bfa76f"/><polygon points="200,150 200,130 215,130 215,150" fill="%23bfa76f"/><polygon points="200,130 207,120 215,130" fill="%23e6d8ad"/><circle cx="320" cy="170" r="10" fill="%23e25822"/><rect x="318" y="170" width="4" height="10" fill="%23bfa76f"/></svg>');
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 600px 300px;
 }
